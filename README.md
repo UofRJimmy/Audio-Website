@@ -1,11 +1,16 @@
-#前言
+## Introduce
 
-PHP本身自带的socket套接字连接一直都是尴尬的存在…从create到bind到listen再到accept一切连接所需要做的事情都得你有亲手去解决，这可是工作量极其繁重的事情，且必须是对各协议的通信过程了解的情况下才能入手，但是如果你拥有了swoole这PHP异步、并行、高性能网络通信引擎的话就一切将会变的更加容易！
+# Download phpstudy 
+After install, do this
+![phpstudyinside](https://user-images.githubusercontent.com/97992455/180838766-855ecab8-ccad-4e0d-806e-dc510d3771ef.PNG)
 
-以下是我利用swoole轻松构建websocket服务器,以实现一个在线即时聊天室的DEMO.
+# Create your database 
+![phpstudyinside2](https://user-images.githubusercontent.com/97992455/180838911-c19f234b-792c-4718-a468-88ffc59121cc.PNG)
 
-#为什么选择websocket
+# Download phpmyadmin from 软件管理
+login
+![phpstudyinside3](https://user-images.githubusercontent.com/97992455/180839693-331e90c6-44a5-43b1-b702-f968c2888c9c.PNG)
 
-什么是websocket？这里就不一一细述,想了解的同学可以自行百科，通俗的来讲就是html5新出的通信协议，可以实现browser与server之间的双向通讯。
+## Import those sql file by cilcking import
 
-接下来说说为什么要选择他，相信大家都只要如果在web实现聊天室的功能通常的做法就是利用ajax长轮询定时发起http请求至服务器取得最新数据，这种方式虽然简单但是有很多的缺点，如果只是构造一个10人不等的聊天室肯定不成为问题，但是如果当100人1000人同时发起大量http请求时，这就大大增加了性能消耗,严重浪费服务器资源，为了解决此问题，websocket因此诞生。
+## Don't forget to modify the connectdb.php file content to your database name and password
