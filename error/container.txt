@@ -1,0 +1,100 @@
+/* .container .header {
+		padding: 15px 0;
+		text-align: center;
+	  }
+	  .container .albumPic {
+		background-size: cover;
+		width: 270px;
+		height: 270px;
+		margin: auto;
+		border-radius: 10px;
+	  }
+	  .container .trackInfo {
+		text-align: center;
+		padding: 20px 0 15px;
+		font-size: 14px;
+		white-space: nowrap;
+	  }
+	  .container .trackInfo .name {
+		font-size: 24px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	  }
+	  .container .progress {
+		width: 30%;
+		height: 10%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,.8), #a8edea);
+		background-image: linear-gradient(top, rgba(0,0,0,.8), #a8edea);
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		opacity: .4;
+	  }
+	  .container .controls {
+		position: relative;
+	  }
+	  .container .controls .play {
+		cursor: pointer;
+		width: 75px;
+		height: 75px;
+		border: 2px solid #ccc;
+		border-radius: 50%;
+		margin: auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+			-ms-flex-align: center;
+				align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		color: #fff;
+		font-size: 35px;
+	  }
+	  .container .controls .play:hover {
+		font-size: 40px;
+	  }
+	  .container .controls .previous {
+		cursor: pointer;
+		position: absolute;
+		top: 25px;
+		font-size: 30px;
+		left: 60px;
+	  }
+	  .container .controls .previous:hover {
+		font-size: 32px;
+	  }
+	  .container .controls .next {
+		cursor: pointer;
+		position: absolute;
+		top: 25px;
+		font-size: 30px;
+		right: 30%;
+	  }
+	  .container .controls .next:hover {
+		font-size: 32px;
+	  }
+	  .container .time {
+		width: 335px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		position: absolute;
+		bottom: 0;
+		padding: 20px;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+			-ms-flex-align: center;
+				align-items: center;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
+	  } */

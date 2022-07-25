@@ -1,0 +1,67 @@
+
+.effect{
+    position:absolute;
+    width:320px;
+    height:320px;
+    border-radius: 50%;
+    background:linear-gradient(#121312,#daebea);
+    z-index:-1;
+    top:16%;
+    left:42%;
+}
+
+.bigball,.smallball{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:10px;
+    border-radius: 50%;
+}
+
+.bigball{
+    width:100px;
+    height: 100px;
+    background-color: black;
+}
+
+.smallball{
+    width:60px;
+    height:60px;
+    background-color: red;
+    animation: ball 3s infinite;
+}
+
+
+@keyframes ball{
+    0%,100%{
+        left:50px;
+        width:60px;
+        height:60px;
+    }
+    4%,54%{
+        width:60px;
+        height: 60px;
+    }
+    10%,60%{
+        width:50px;
+        height:70px;
+    }
+    20%,70%{
+        width: 60px;
+        height: 60px;
+    }
+    34%,90%{
+        width: 70px;
+        height: 50px;
+    }
+    41%{
+        width: 60px;
+        height: 60px;
+    }
+    50%{
+        left:270px;
+        width:60px;
+        height:60px;
+    }
+}
